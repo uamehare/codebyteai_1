@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    position: fixed;
+    height: 5rem;
+    backdrop-filter: blur(20px);
+    padding: 10px 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.left h1 {
+    font-size: 1.50rem;
+    font-weight: 400;
+}
+
+.right ul {
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    color: white;
+}

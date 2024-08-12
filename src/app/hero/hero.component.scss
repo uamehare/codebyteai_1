@@ -1,0 +1,30 @@
+img {
+    width: 10rem;
+    height: 10rem;
+    filter: contrast(2);
+}
+
+.hero-section{
+    height: 100%
+}
+
+.hero {
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    padding: 4rem;
+
+    h1 {
+        font-size: 4rem;
+        color: #afafaf;
+        letter-spacing: 5px;
+
+        span{
+            color: #c24c00;
+        }
+    }
+}
